@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.container{
+    width: 400px;
+    background-color: rgb(8, 108, 113);
+    margin: 40px;
+}
+.main{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#text{
+    border-radius: 5px;
+    margin-bottom: 10px;
+    height: 30px;
+    padding: 5px;
+    border: transparent;
+}
+.size{
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+#select{
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+}
+.qr {
+       margin-bottom: 20px;
+       display: flex;
+       justify-content: center;
+}
